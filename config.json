@@ -1,0 +1,18 @@
+{
+    "caddy": {
+        "url": "",
+        "caddyfile": ""
+    },
+    "params": {},
+    "service_commands": [
+        {
+            "name": "run webserver",
+            "command": "./app/mount/webserver",
+            "build_commands": [],
+            "ports": [
+                8000
+            ],
+            "env": {}
+        }
+    ]
+}
